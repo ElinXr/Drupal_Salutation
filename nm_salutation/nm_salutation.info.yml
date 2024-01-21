@@ -1,0 +1,6 @@
+name: Salutation
+type: module
+description: 'Provides greeting messages to the end user for the different parts of the day.'
+package: NM custom
+core_version_requirement: ^10
+configure: nm_salutation.settings

@@ -1,0 +1,4 @@
+services:
+  nm_salutation.messages:
+    class: Drupal\nm_salutation\Salutation
+    arguments: ['@config.factory']

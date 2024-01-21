@@ -1,0 +1,14 @@
+nm_salutation.message:
+  path: '/salutation'
+  defaults:
+    _controller: '\Drupal\nm_salutation\Controller\SalutationController::showMessage'
+    _title: 'Salutation Page'
+  requirements:
+    _permission: 'access content'
+nm_salutation.settings:
+  path: '/admin/config/development/salutation'
+  defaults:
+    _form: '\Drupal\nm_salutation\Form\SalutationForm'
+    _title: 'Salutation Settings'
+  requirements:
+    _permission: 'administer salutation messages'

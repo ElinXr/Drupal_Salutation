@@ -1,0 +1,3 @@
+administer salutation messages:
+  title: 'Provide salutation messages to the end user according to the part of the day.'
+  description: 'The salutation message will appear either on the Salutation page, or in a block which you can attach to a desired region.'

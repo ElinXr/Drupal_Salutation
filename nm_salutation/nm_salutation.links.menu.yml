@@ -1,0 +1,5 @@
+nm_salutation.settings:
+  title: 'Salutation settings'
+  description: 'Provide a salutation message to the end user.'
+  route_name: nm_salutation.settings
+  parent: 'system.admin_config_development'

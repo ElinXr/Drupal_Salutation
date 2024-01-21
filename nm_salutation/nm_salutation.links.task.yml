@@ -1,0 +1,4 @@
+nm_salutation.settings_tab:
+  route_name: nm_salutation.settings
+  title: Salutation settings
+  base_route: nm_salutation.settings
